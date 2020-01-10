@@ -1,0 +1,94 @@
+Les Mots
+================================================================================
+
+History
+=======
+Kick-off: 2019-11-21
+--------------------------------------------------------------------------------
+
+Brief
+=====
+Manage a French vocabulary.
+Vincent knows some software concepts
+  how to work with tools
+  how to launch a program
+  how to access files 
+  how to evaluate interactive input
+--------------------------------------------------------------------------------
+
+Requirements
+============
+As a user of Les Mots I want to manage my French words vocabulary.
+I want to add a new word.
+I want to see all words.
+I want to find a word.
+A word is stored with the following attributes:
+  meaning in French 
+  meaning in German 
+  and more attributes e.g. word category
+--------------------------------------------------------------------------------
+
+Use Cases
+=========
+Launch application and show navigation menu
+Add new word, show add word dialog, save word or cancel
+List words
+Find word
+Return and cancel
+--------------------------------------------------------------------------------
+
+Solution Design
+===============
+JSE (not JEE)
+CLI (not GUI)
+Files (not DB)
+Business Logic is reusable for JSE and JEE, CLI and GUI, Files and DB
+--------------------------------------------------------------------------------
+
+Implementation
+==============
+Maven
+Eclipse
+JUnit
+--------------------------------------------------------------------------------
+
+Principles
+==========
+Divide & Conquera
+Separation of Concerns
+--------------------------------------------------------------------------------
+
+Epics
+=====
+Add, find and present words.
+--------------------------------------------------------------------------------
+
+Stories
+========
+Download Eclipse
+Download Maven
+Download Git
+Setup JSE Project with JUnit and Slf4j
+--------------------------------------------------------------------------------
+
+Back Log
+========
+Word category isVerbum, isNomen
+While learning count how many times have I learnt this word
+While learning lock word to avoid repeatedly present same word again.
+Consider other languages and present in a 1 view.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
